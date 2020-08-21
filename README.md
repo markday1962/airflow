@@ -2,8 +2,13 @@
 Export airflow home directory
 ```
 mkdir code && cd code
-export AIRFLOW_HOME=$PWD
+export AIRFLOW_HOME=~/code/src/airflow/code
 echo $AIRFLOW_HOME
+```
+Update ~/.bashrc
+```
+export AIRFLOW_HOME=~/code/src/airflow/code
+source ~/.bashrc
 ```
 
 ## Installing dependencies
@@ -40,4 +45,30 @@ docker run --name airflow-postgres -e POSTGRES_PASSWORD=mysecretpassword -e POST
 https://airflow.apache.org/docs/stable/start.html
 ```
 airflow initdb
+```
+
+Open airflow.cfg and amend the following values
+```
+executor = LocalExecutor
+sql_alchemy_conn = postgresql+psycopg2://airflow:mysecretpassword@localhost:5416/airflow
+```
+Apply the airflow db changes
+```
+airflow resetdb
+```
+Connect to the database and in the Schemas/public you will see the airflow tables
+
+Start Scheduler, open a new terminal
+```
+cd $AIRFLOW_HOME
+source venv/bin/activate
+airflow scheduler
+```
+
+Start Webserver, open a new terminal, then connect to the UI via a browser
+```
+cd $AIRFLOW_HOME
+source venv/bin/activate
+airflow webserver -p 31080
+http://localhost:31008/admin/
 ```
