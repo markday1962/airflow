@@ -1,3 +1,0 @@
-apache-airflow[kubernetes, statsd, crypto]
-psycopg2-binary
-flask-bcrypt

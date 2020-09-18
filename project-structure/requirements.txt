@@ -1,4 +1,0 @@
-apache-airflow[kubernetes, statsd, crypto]==1.10.5
-psycopg2-binary
-werkzeug
-flask-bcrypt
