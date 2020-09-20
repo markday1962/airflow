@@ -1,0 +1,376 @@
+[2020-09-20 17:23:41,469] {dag_processing.py:806} INFO - Processing files using up to 2 processes at a time 
+[2020-09-20 17:23:41,471] {dag_processing.py:807} INFO - Process each file at most once every 0 seconds
+[2020-09-20 17:23:41,472] {dag_processing.py:809} INFO - Checking for new files in /usr/local/airflow/dags every 300 seconds
+[2020-09-20 17:23:41,485] {dag_processing.py:1006} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime    Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------------  ----------
+/usr/local/airflow/dags/my_first_dag.py    151  0.00s
+/usr/local/airflow/dags/branching.py       149  0.01s
+================================================================================
+[2020-09-20 17:24:11,894] {dag_processing.py:1006} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime    Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/my_first_dag.py    451  0.00s      1.01s           2020-09-20T17:24:11
+/usr/local/airflow/dags/branching.py       449  0.01s      1.02s           2020-09-20T17:24:11
+================================================================================
+[2020-09-20 17:24:42,309] {dag_processing.py:1006} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime    Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/my_first_dag.py    751  0.01s      1.01s           2020-09-20T17:24:42
+/usr/local/airflow/dags/branching.py       749  0.01s      1.02s           2020-09-20T17:24:42
+================================================================================
+[2020-09-20 17:25:12,734] {dag_processing.py:1006} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime    Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/my_first_dag.py   1060  0.01s      1.01s           2020-09-20T17:25:12
+/usr/local/airflow/dags/branching.py      1058  0.01s      1.01s           2020-09-20T17:25:12
+================================================================================
+[2020-09-20 17:25:43,178] {dag_processing.py:1006} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime    Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/my_first_dag.py   1360  0.00s      1.01s           2020-09-20T17:25:43
+/usr/local/airflow/dags/branching.py      1358  0.01s      1.01s           2020-09-20T17:25:43
+================================================================================
+[2020-09-20 17:26:13,587] {dag_processing.py:1006} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime    Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/my_first_dag.py   1660  0.00s      1.01s           2020-09-20T17:26:13
+/usr/local/airflow/dags/branching.py      1658  0.01s      1.02s           2020-09-20T17:26:13
+================================================================================
+[2020-09-20 17:26:26,753] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:26:26,756] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:26:27,771] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:26:27,774] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:26:28,789] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:26:28,792] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:26:29,810] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:26:29,812] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:26:30,827] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:26:30,830] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:26:31,847] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:26:31,850] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:26:32,865] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:26:32,867] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:26:33,883] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:26:33,886] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:26:34,902] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:26:34,904] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:26:35,923] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:26:35,925] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:26:36,943] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:26:36,945] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:26:37,962] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:26:37,964] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:26:38,980] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:26:38,982] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:26:39,998] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:26:40,000] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:26:41,017] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:26:41,020] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:26:42,037] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:26:42,039] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:26:43,057] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:26:43,060] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:26:44,075] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:26:44,077] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:26:44,091] {dag_processing.py:1006} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime    Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/my_first_dag.py   1960  0.00s      1.01s           2020-09-20T17:26:44
+/usr/local/airflow/dags/branching.py      1958  0.01s      1.01s           2020-09-20T17:26:44
+================================================================================
+[2020-09-20 17:26:45,096] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:26:45,098] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:26:46,119] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:26:46,121] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:26:47,104] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:26:47,107] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:26:48,122] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:26:48,124] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:26:49,140] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:26:49,142] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:26:50,156] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:26:50,158] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:26:51,172] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:26:51,174] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:26:52,190] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:26:52,192] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:26:53,208] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:26:53,211] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:26:54,225] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:26:54,227] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:26:55,237] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:26:55,243] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:26:56,256] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:26:56,257] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:26:57,268] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:26:57,270] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:26:58,283] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:26:58,284] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:26:59,296] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:26:59,297] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:27:00,311] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:27:00,313] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:27:01,324] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:27:01,326] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:27:02,340] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:27:02,342] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:27:03,353] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:27:03,354] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:27:04,369] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:27:04,371] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:27:05,382] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:27:05,384] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:27:06,395] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:27:06,396] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:27:07,406] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:27:07,408] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:27:08,419] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:27:08,421] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:27:09,433] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:27:09,434] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:27:10,447] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:27:10,449] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:27:11,462] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:27:11,463] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:27:12,474] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:27:12,476] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:27:13,487] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:27:13,489] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:27:14,500] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:27:14,502] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:27:14,513] {dag_processing.py:1006} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime    Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/my_first_dag.py   2260  0.00s      1.01s           2020-09-20T17:27:14
+/usr/local/airflow/dags/branching.py      2258  0.01s      1.01s           2020-09-20T17:27:14
+================================================================================
+[2020-09-20 17:27:15,517] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:27:15,518] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:27:16,530] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:27:16,532] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:27:17,507] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:27:17,508] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:27:17,543] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:27:17,544] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:27:18,520] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:27:18,522] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:27:18,553] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:27:19,534] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:27:19,536] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:27:20,548] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:27:20,549] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:27:21,559] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:27:21,561] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:27:22,575] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:27:22,578] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:27:23,589] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:27:23,590] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:27:24,601] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:27:24,603] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:27:25,615] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:27:25,616] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:27:26,627] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:27:26,628] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:27:27,642] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:27:27,644] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:27:28,656] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:27:28,657] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:27:29,668] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:27:29,669] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:27:30,681] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:27:30,682] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:27:31,694] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:27:31,695] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:27:32,707] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:27:32,708] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:27:33,721] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:27:33,723] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:27:34,734] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:27:34,736] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:27:35,748] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:27:35,749] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:27:36,774] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:27:36,776] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:27:37,787] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:27:37,788] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:27:38,800] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:27:38,802] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:27:39,813] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:27:39,815] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:27:40,828] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:27:40,829] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:27:41,841] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:27:41,842] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:27:42,854] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:27:42,855] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:27:43,866] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:27:43,867] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:27:44,878] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:27:44,879] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:27:44,890] {dag_processing.py:1006} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime    Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/my_first_dag.py   2575  0.00s      1.01s           2020-09-20T17:27:44
+/usr/local/airflow/dags/branching.py      2573  0.01s      1.01s           2020-09-20T17:27:44
+================================================================================
+[2020-09-20 17:27:45,894] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:27:45,895] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:27:46,905] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:27:46,906] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:27:47,884] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:27:47,886] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:27:47,920] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:27:47,921] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:27:48,898] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:27:48,900] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:27:48,929] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:27:49,912] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:27:49,914] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:27:50,926] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:27:50,928] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:27:51,940] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:27:51,942] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:27:52,954] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:27:52,956] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:27:53,969] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:27:53,971] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:27:54,983] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:27:54,985] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:27:55,997] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:27:55,999] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:27:57,010] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:27:57,012] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:27:58,023] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:27:58,025] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:27:59,036] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:27:59,038] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:28:00,049] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:28:00,051] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:28:01,062] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:28:01,064] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:28:02,075] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:28:02,076] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:28:03,090] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:28:03,092] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:28:04,103] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:28:04,106] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:28:05,118] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:28:05,120] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:28:06,132] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:28:06,134] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:28:07,146] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:28:07,147] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:28:08,159] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:28:08,161] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:28:09,173] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:28:09,174] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:28:10,187] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:28:10,189] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:28:11,202] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:28:11,204] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:28:12,217] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:28:12,218] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:28:13,228] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:28:13,230] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:28:14,241] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:28:14,243] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:28:15,255] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:28:15,257] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:28:15,266] {dag_processing.py:1006} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime    Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/my_first_dag.py   2890  0.00s      1.01s           2020-09-20T17:28:15
+/usr/local/airflow/dags/branching.py      2888  0.01s      1.01s           2020-09-20T17:28:15
+================================================================================
+[2020-09-20 17:28:16,270] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:28:16,272] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:28:17,248] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:28:17,249] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:28:17,284] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:28:17,285] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:28:18,261] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:28:18,262] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:28:18,294] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:28:18,296] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:28:19,274] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:28:19,276] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:28:19,307] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:28:20,287] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:28:20,289] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:28:20,315] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:28:21,300] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:28:21,302] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:28:21,324] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:28:22,314] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:28:22,318] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:28:23,328] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:28:23,330] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:28:24,342] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:28:24,344] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:28:25,356] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:28:25,357] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:28:26,369] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:28:26,371] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:28:27,383] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:28:27,384] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:28:28,397] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:28:28,399] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:28:29,409] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:28:29,411] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:28:30,422] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:28:30,424] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:28:31,434] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:28:31,435] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:28:32,447] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:28:32,448] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:28:33,459] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:28:33,461] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:28:34,472] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:28:34,473] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:28:35,485] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:28:35,486] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:28:36,498] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:28:36,499] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:28:37,511] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:28:37,512] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:28:38,524] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:28:38,525] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:28:39,539] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:28:39,541] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:28:40,553] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/branching.py exited with return code 1.
+[2020-09-20 17:28:40,555] {dag_processing.py:1145} WARNING - Processor for /usr/local/airflow/dags/my_first_dag.py exited with return code 1.
+[2020-09-20 17:28:41,566] {dag_processing.py:894} INFO - Searching for files in /usr/local/airflow/dags
+[2020-09-20 17:28:41,569] {dag_processing.py:897} INFO - There are 0 files in /usr/local/airflow/dags
+[2020-09-20 17:28:41,570] {dag_processing.py:1093} WARNING - Stopping processor for /usr/local/airflow/dags/branching.py
+[2020-09-20 17:28:41,571] {dag_processing.py:1093} WARNING - Stopping processor for /usr/local/airflow/dags/my_first_dag.py
