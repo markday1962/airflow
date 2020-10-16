@@ -1,0 +1,29 @@
+[2020-10-16 08:32:58,479] {taskinstance.py:620} INFO - Dependencies all met for <TaskInstance: download_rocket_launches.download_launches 2020-10-12T00:00:00+00:00 [queued]>
+[2020-10-16 08:32:58,484] {taskinstance.py:620} INFO - Dependencies all met for <TaskInstance: download_rocket_launches.download_launches 2020-10-12T00:00:00+00:00 [queued]>
+[2020-10-16 08:32:58,485] {taskinstance.py:838} INFO - 
+--------------------------------------------------------------------------------
+[2020-10-16 08:32:58,485] {taskinstance.py:839} INFO - Starting attempt 1 of 1
+[2020-10-16 08:32:58,485] {taskinstance.py:840} INFO - 
+--------------------------------------------------------------------------------
+[2020-10-16 08:32:58,493] {taskinstance.py:859} INFO - Executing <Task(BashOperator): download_launches> on 2020-10-12T00:00:00+00:00
+[2020-10-16 08:32:58,494] {base_task_runner.py:133} INFO - Running: ['airflow', 'run', 'download_rocket_launches', 'download_launches', '2020-10-12T00:00:00+00:00', '--job_id', '26', '--pool', 'default_pool', '--raw', '-sd', 'DAGS_FOLDER/data_piplines_book/chapter2/download_rocket_launches.py', '--cfg_path', '/tmp/tmpk9hmwoaj']
+[2020-10-16 08:32:58,845] {base_task_runner.py:115} INFO - Job 26: Subtask download_launches [2020-10-16 08:32:58,845] {settings.py:213} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=56144
+[2020-10-16 08:32:58,936] {base_task_runner.py:115} INFO - Job 26: Subtask download_launches [2020-10-16 08:32:58,936] {__init__.py:51} INFO - Using executor LocalExecutor
+[2020-10-16 08:32:59,176] {base_task_runner.py:115} INFO - Job 26: Subtask download_launches [2020-10-16 08:32:59,176] {dagbag.py:90} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_piplines_book/chapter2/download_rocket_launches.py
+[2020-10-16 08:32:59,192] {base_task_runner.py:115} INFO - Job 26: Subtask download_launches [2020-10-16 08:32:59,192] {cli.py:516} INFO - Running <TaskInstance: download_rocket_launches.download_launches 2020-10-12T00:00:00+00:00 [running]> on host 5501f7880404
+[2020-10-16 08:32:59,203] {bash_operator.py:81} INFO - Tmp dir root location: 
+ /tmp
+[2020-10-16 08:32:59,203] {bash_operator.py:91} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_ID=download_rocket_launches
+AIRFLOW_CTX_TASK_ID=download_launches
+AIRFLOW_CTX_EXECUTION_DATE=2020-10-12T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2020-10-12T00:00:00+00:00
+[2020-10-16 08:32:59,204] {bash_operator.py:105} INFO - Temporary script location: /tmp/airflowtmp0a2_0nj4/download_launchesmupf0wpn
+[2020-10-16 08:32:59,204] {bash_operator.py:115} INFO - Running command: curl -o /tmp/launches.json 'https://launchlibrary.net/1.4/launch?next=5&mode=verbose'
+[2020-10-16 08:32:59,206] {bash_operator.py:124} INFO - Output:
+[2020-10-16 08:32:59,207] {bash_operator.py:128} INFO - bash: warning: setlocale: LC_ALL: cannot change locale (en_US.UTF-8)
+[2020-10-16 08:32:59,210] {bash_operator.py:128} INFO -   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+[2020-10-16 08:32:59,210] {bash_operator.py:128} INFO -                                  Dload  Upload   Total   Spent    Left  Speed
+[2020-10-16 08:33:00,149] {bash_operator.py:128} INFO -   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  2478    0  2478    0     0   2666      0 --:--:-- --:--:-- --:--:--  2664100 13920    0 13920    0     0  14826      0 --:--:-- --:--:-- --:--:-- 14824
+[2020-10-16 08:33:00,151] {bash_operator.py:132} INFO - Command exited with return code 0
+[2020-10-16 08:33:03,476] {logging_mixin.py:95} INFO - [[34m2020-10-16 08:33:03,476[0m] {[34mlocal_task_job.py:[0m105} INFO[0m - Task exited with return code 0[0m

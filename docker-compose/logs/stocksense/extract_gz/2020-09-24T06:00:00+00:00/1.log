@@ -1,0 +1,26 @@
+[2020-10-16 12:07:05,553] {taskinstance.py:620} INFO - Dependencies all met for <TaskInstance: stocksense.extract_gz 2020-09-24T06:00:00+00:00 [queued]>
+[2020-10-16 12:07:05,563] {taskinstance.py:620} INFO - Dependencies all met for <TaskInstance: stocksense.extract_gz 2020-09-24T06:00:00+00:00 [queued]>
+[2020-10-16 12:07:05,563] {taskinstance.py:838} INFO - 
+--------------------------------------------------------------------------------
+[2020-10-16 12:07:05,563] {taskinstance.py:839} INFO - Starting attempt 1 of 1
+[2020-10-16 12:07:05,563] {taskinstance.py:840} INFO - 
+--------------------------------------------------------------------------------
+[2020-10-16 12:07:05,569] {taskinstance.py:859} INFO - Executing <Task(BashOperator): extract_gz> on 2020-09-24T06:00:00+00:00
+[2020-10-16 12:07:05,570] {base_task_runner.py:133} INFO - Running: ['airflow', 'run', 'stocksense', 'extract_gz', '2020-09-24T06:00:00+00:00', '--job_id', '851', '--pool', 'default_pool', '--raw', '-sd', 'DAGS_FOLDER/data_piplines_book/chapter4/stocksense.py', '--cfg_path', '/tmp/tmpprt560gw']
+[2020-10-16 12:07:05,928] {base_task_runner.py:115} INFO - Job 851: Subtask extract_gz [2020-10-16 12:07:05,928] {settings.py:213} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=198038
+[2020-10-16 12:07:06,021] {base_task_runner.py:115} INFO - Job 851: Subtask extract_gz [2020-10-16 12:07:06,021] {__init__.py:51} INFO - Using executor LocalExecutor
+[2020-10-16 12:07:06,289] {base_task_runner.py:115} INFO - Job 851: Subtask extract_gz [2020-10-16 12:07:06,289] {dagbag.py:90} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_piplines_book/chapter4/stocksense.py
+[2020-10-16 12:07:06,309] {base_task_runner.py:115} INFO - Job 851: Subtask extract_gz [2020-10-16 12:07:06,309] {cli.py:516} INFO - Running <TaskInstance: stocksense.extract_gz 2020-09-24T06:00:00+00:00 [running]> on host 5501f7880404
+[2020-10-16 12:07:06,324] {bash_operator.py:81} INFO - Tmp dir root location: 
+ /tmp
+[2020-10-16 12:07:06,324] {bash_operator.py:91} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_ID=stocksense
+AIRFLOW_CTX_TASK_ID=extract_gz
+AIRFLOW_CTX_EXECUTION_DATE=2020-09-24T06:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2020-09-24T06:00:00+00:00
+[2020-10-16 12:07:06,324] {bash_operator.py:105} INFO - Temporary script location: /tmp/airflowtmpk5wej522/extract_gzuvstnyr5
+[2020-10-16 12:07:06,324] {bash_operator.py:115} INFO - Running command: gunzip --force /tmp/wikipageviews/20200924T060000/wikipageviews.gz
+[2020-10-16 12:07:06,329] {bash_operator.py:124} INFO - Output:
+[2020-10-16 12:07:06,330] {bash_operator.py:128} INFO - bash: warning: setlocale: LC_ALL: cannot change locale (en_US.UTF-8)
+[2020-10-16 12:07:07,158] {bash_operator.py:132} INFO - Command exited with return code 0
+[2020-10-16 12:07:10,549] {logging_mixin.py:95} INFO - [[34m2020-10-16 12:07:10,549[0m] {[34mlocal_task_job.py:[0m105} INFO[0m - Task exited with return code 0[0m

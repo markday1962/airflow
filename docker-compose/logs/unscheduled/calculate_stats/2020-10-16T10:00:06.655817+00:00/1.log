@@ -1,0 +1,20 @@
+[2020-10-16 10:00:21,890] {taskinstance.py:620} INFO - Dependencies all met for <TaskInstance: unscheduled.calculate_stats 2020-10-16T10:00:06.655817+00:00 [queued]>
+[2020-10-16 10:00:21,900] {taskinstance.py:620} INFO - Dependencies all met for <TaskInstance: unscheduled.calculate_stats 2020-10-16T10:00:06.655817+00:00 [queued]>
+[2020-10-16 10:00:21,900] {taskinstance.py:838} INFO - 
+--------------------------------------------------------------------------------
+[2020-10-16 10:00:21,900] {taskinstance.py:839} INFO - Starting attempt 1 of 1
+[2020-10-16 10:00:21,900] {taskinstance.py:840} INFO - 
+--------------------------------------------------------------------------------
+[2020-10-16 10:00:21,906] {taskinstance.py:859} INFO - Executing <Task(PythonOperator): calculate_stats> on 2020-10-16T10:00:06.655817+00:00
+[2020-10-16 10:00:21,906] {base_task_runner.py:133} INFO - Running: ['airflow', 'run', 'unscheduled', 'calculate_stats', '2020-10-16T10:00:06.655817+00:00', '--job_id', '53', '--pool', 'default_pool', '--raw', '-sd', 'DAGS_FOLDER/data_piplines_book/chapter3/unscheduled.py', '--cfg_path', '/tmp/tmp4cle2qp4']
+[2020-10-16 10:00:22,252] {base_task_runner.py:115} INFO - Job 53: Subtask calculate_stats [2020-10-16 10:00:22,252] {settings.py:213} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=108666
+[2020-10-16 10:00:22,344] {base_task_runner.py:115} INFO - Job 53: Subtask calculate_stats [2020-10-16 10:00:22,344] {__init__.py:51} INFO - Using executor LocalExecutor
+[2020-10-16 10:00:22,551] {base_task_runner.py:115} INFO - Job 53: Subtask calculate_stats [2020-10-16 10:00:22,550] {dagbag.py:90} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_piplines_book/chapter3/unscheduled.py
+[2020-10-16 10:00:22,657] {base_task_runner.py:115} INFO - Job 53: Subtask calculate_stats [2020-10-16 10:00:22,657] {cli.py:516} INFO - Running <TaskInstance: unscheduled.calculate_stats 2020-10-16T10:00:06.655817+00:00 [running]> on host 5501f7880404
+[2020-10-16 10:00:22,667] {python_operator.py:105} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_ID=unscheduled
+AIRFLOW_CTX_TASK_ID=calculate_stats
+AIRFLOW_CTX_EXECUTION_DATE=2020-10-16T10:00:06.655817+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2020-10-16T10:00:06.655817+00:00
+[2020-10-16 10:00:22,767] {python_operator.py:114} INFO - Done. Returned value was: None
+[2020-10-16 10:00:26,920] {logging_mixin.py:95} INFO - [[34m2020-10-16 10:00:26,918[0m] {[34mlocal_task_job.py:[0m105} INFO[0m - Task exited with return code 0[0m
